@@ -4,7 +4,7 @@ This repository includes three machine learning projects I developed independent
 
 ---
 
-### A1: Encryption Method Classifier
+### P1: Encryption Method Classifier
 
 **Goal**  
 Classify whether an encrypted message was generated using a Caesar or Playfair cipher based on a given plaintext/ciphertext pair.
@@ -18,11 +18,11 @@ Classify whether an encrypted message was generated using a Caesar or Playfair c
 **Lessons Learned**  
 This project showed how machine learning can identify hidden structure and patterns even in classical encryption techniques.
 
-[Report_A1.docx](./Report_A1.docx)  
-[Encryption_Classifier(A1).ipynb](./Encryption_Classifier(A1).ipynb)
+[Project1.pdf](./Project1.pdf) 
+[Encryption_Classifier(P1).ipynb](./Encryption_Classifier(P1).ipynb)
 
 
-### A2: Detecting Network Attacks
+### P2: Detecting Network Attacks
 
 **Goal**  
 Detect whether network traffic is benign or part of an attack (e.g., DoS, Port Scan, DDoS) using supervised learning.
@@ -36,8 +36,8 @@ Detect whether network traffic is benign or part of an attack (e.g., DoS, Port S
 **Lessons Learned**   
 This project helped me better understand model complexity and overfitting, especially in high-dimensional security datasets. I saw firsthand how tree ensembles like Random Forests can generalize better than single trees and baselines when dealing with noisy attack data.
 
-[Report_A2.docx](./Report_A2.docx)  
-[GoodorBadNetworkPacket(A2).ipynb](./GoodorBadNetworkPacket(A2).ipynb)
+[Project2.pdf](./Project2.pdf)  
+[GoodorBadNetworkPacket(P2).ipynb](./GoodorBadNetworkPacket(P2).ipynb)
 
 
 
@@ -57,8 +57,8 @@ Develop a neural network-based intrusion detection system and evaluate its abili
 **Lessons Learned**  
 This project taught me the tradeoffs between robustness and precision in adversarial defense. Adversarial training helped the model resist attack samples but raised false positives, while the ensemble approach struck a better balance without extra retraining. It deepened my understanding of real-world security model constraints.
 
-[Report_A3.docx](./Report_A3.docx)  
-[NeuralNetworkIDS(A3).ipynb](./NeuralNetworkIDS(A3).ipynb)
+[Project3.pdf](./Project3.pdf) 
+[NeuralNetworkIDS(P3).ipynb](./NeuralNetworkIDS(P3).ipynb)
 
 
 ## License
